@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 20%, 98%);
+}
+
+.task-pane {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-pane-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.plugin-title {
+    font-size: 18px;
+    color: #1e3a8a;
+    margin: 0;
+    font-weight: bold;
+}
+
+.dashboard {
+    padding-top: 20px;
+}
+
+.dashboard-title {
+    font-size: 20px;
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1e3a8a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1c3a7a;
+}
+
+.auth-status {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6b7280;
+}

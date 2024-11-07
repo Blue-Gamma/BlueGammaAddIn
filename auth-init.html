@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Display a message to the user
+            document.getElementById("message").innerText = "Please wait, we are redirecting you to the sign-in page.";
+
+            // Construct the authentication URL with a redirect URI
+            const authProviderUrl = "https://identity-provider.com/signin";
+            const redirectUri = encodeURIComponent("https://your-addin-domain.com/redirectPage.html");
+            const authUrl = `${authProviderUrl}?redirectUri=${redirectUri}`;
+
+            // Redirect to the authentication provider
+            window.location.href = "https://dev.bluegamma.io/api/auth/addin?redirectUri=https://ikopernik.github.io/BlueGammaExcelAddin/callback.html";
+;
+        });
+    </script>
+</head>
+<body>
+    <p id="message">Loading...</p>
+</body>
+</html>
