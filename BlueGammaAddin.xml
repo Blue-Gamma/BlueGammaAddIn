@@ -19,7 +19,7 @@
   <DisplayName DefaultValue="BlueGamma Excel add-in" />
   <Description DefaultValue="BlueGamma Excel add-in"/>
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/Images/Button32x32.png" />
+  <IconUrl DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/Images/Button32x32.png" />
 
   <SupportUrl DefaultValue="mailto:support@bluegamma.io" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -28,12 +28,12 @@
     <AppDomain>https://api.bluegamma.io</AppDomain>
     <AppDomain>https://6v51jtul4e.execute-api.eu-west-2.amazonaws.com</AppDomain>
   </AppDomains>
-
+  
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/taskpane.html" />
+    <SourceLocation DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/taskpane.html" />
   </DefaultSettings>
   <!-- End TaskPane Mode integration.  -->
 
@@ -108,15 +108,15 @@
     
     <Resources>
       <bt:Images>
-        <bt:Image id="BlueG.tpicon_16x16" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/Images/Button16x16.png" />
-        <bt:Image id="BlueG.tpicon_32x32" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/Images/Button32x32.png" />
-        <bt:Image id="BlueG.tpicon_80x80" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/Images/Button80x80.png" />
+        <bt:Image id="BlueG.tpicon_16x16" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/Images/Button16x16.png" />
+        <bt:Image id="BlueG.tpicon_32x32" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/Images/Button32x32.png" />
+        <bt:Image id="BlueG.tpicon_80x80" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/Images/Button80x80.png" />
       </bt:Images>
       <bt:Urls>
-		<bt:Url id="BlueG.Functions.Url" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/functions.js"/>
-		<bt:Url id="BlueG.Metadata.Url" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/functions.json"/>
-        <bt:Url id="BlueG.CustomFunctions.Url" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/functions.html" />
-        <bt:Url id="BlueG.Taskpane.Url" DefaultValue="https://ikopernik.github.io/BlueGammaExcelAddin/taskpane.html" />
+		<bt:Url id="BlueG.Functions.Url" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/functions.js"/>
+		<bt:Url id="BlueG.Metadata.Url" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/functions.json"/>
+        <bt:Url id="BlueG.CustomFunctions.Url" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/functions.html" />
+        <bt:Url id="BlueG.Taskpane.Url" DefaultValue="https://blue-gamma.github.io/BlueGammaAddIn/taskpane.html" />
         <bt:Url id="BlueG.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <bt:ShortStrings>

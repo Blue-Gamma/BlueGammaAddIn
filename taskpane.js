@@ -17,7 +17,7 @@ Office.onReady().then(async function () {
 
 function authenticateUser() {
     // URL for the authentication endpoint
-    const authUri = "https://dev.bluegamma.io/api/auth/addin?redirectUri=https://ikopernik.github.io/BlueGammaExcelAddin/callback.html";
+    const authUri = "https://dev.bluegamma.io/api/auth/addin?redirectUri=https://blue-gamma.github.io/BlueGammaAddIn/callback.html";
 
     // window.location.href = authUri;
     window.open(authUri, "_blank");
@@ -37,7 +37,7 @@ function authenticateUser() {
     // Add an event listener for messages from the child window (callback.html)
     window.addEventListener("message", async function (event) {
         // Check the origin of the message for security
-        if (event.origin === "https://ikopernik.github.io") { // Replace with your actual domain
+        if (event.origin === "https://blue-gamma.github.io") { // Replace with your actual domain
             if (event.data.type === "AUTH_SUCCESS") {
                 console.log("authorizationCode", event.data.authorizationCode);
 
