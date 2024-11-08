@@ -76,7 +76,7 @@ async function GetRateWithToken(token, url) {
  * @param {string} start_date Start date
  * @param {string} maturity_date Maturity date
  * @param {string} payment_frequency Payment frequency
- * @param {string} [valuation_time] Valuation time
+ * @param {string} valuation_time Valuation time
  * @returns {string} Swap rate
  */
 async function SwapRate(index, start_date, maturity_date, payment_frequency, valuation_time = "") {

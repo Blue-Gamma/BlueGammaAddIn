@@ -29,7 +29,7 @@
                     "description": "valuation time",
                     "name": "valuation_time",
                     "type": "string",
-                    "required": false
+                    "optional": true
                 }
             ],
             "result": {
@@ -60,7 +60,6 @@
                     "description": "valuation time",
                     "name": "valuation_time",
                     "type": "string",
-                    "required": false,
                     "optional": true
                 }
             ],
@@ -102,7 +101,7 @@
                     "description": "valuation time",
                     "name": "valuation_time",
                     "type": "string",
-                    "required": false
+                    "optional": true
                 }
             ],
             "result": {
